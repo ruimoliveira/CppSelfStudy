@@ -1,0 +1,1 @@
+This is a project where I use to explore C++ funcionality, features, design patterns , and/or algorithms.
