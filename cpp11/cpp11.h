@@ -19,6 +19,7 @@ class Cpp11 {
     private:
         //simple feature demos
         void braceOrEqualInitializersDemo();
+        void autoKeywordDemo();
 };
 
 #endif // CPP11_H
