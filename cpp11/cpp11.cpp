@@ -1,5 +1,7 @@
 #include "cpp11.h"
 
+#include <vector>
+
 Cpp11* Cpp11::Instance = nullptr;
 
 Cpp11& Cpp11::getInstance() {
@@ -10,5 +12,5 @@ Cpp11& Cpp11::getInstance() {
 }
 
 void Cpp11::demo() {
-    // Demonstration of some C++11 features
+    //features demos
 }
