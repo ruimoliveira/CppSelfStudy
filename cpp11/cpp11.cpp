@@ -15,6 +15,7 @@ void Cpp11::demo() {
     braceOrEqualInitializersDemo();
     autoKeywordDemo();
     decltypeKeywordDemo();
+    rangeBasedForLoopDemo();
 }
 
 struct Point {
@@ -73,4 +74,12 @@ void Cpp11::decltypeKeywordDemo() {
 
     GenericClass<int> intObj(42);
     decltype(intObj.getValue()) intRef = intObj.getValue(); // infers type const int&
+}
+
+void Cpp11::rangeBasedForLoopDemo() {
+    std::vector<int> numbers = {1, 2, 3, 4, 5};
+
+    for (auto& num : numbers) { // range-based for loop
+        num *= 2;
+    }
 }
