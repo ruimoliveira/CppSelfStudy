@@ -21,6 +21,7 @@ class Cpp11 {
         void braceOrEqualInitializersDemo();
         void autoKeywordDemo();
         void decltypeKeywordDemo();
+        void rangeBasedForLoopDemo();
 };
 
 #endif // CPP11_H
