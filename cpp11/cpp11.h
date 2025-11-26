@@ -20,6 +20,7 @@ class Cpp11 {
         //simple feature demos
         void braceOrEqualInitializersDemo();
         void autoKeywordDemo();
+        void decltypeKeywordDemo();
 };
 
 #endif // CPP11_H
